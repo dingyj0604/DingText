@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .select {
+            background-color: rgb(227, 232, 241);
+            height: 30px;
+            width: 200px;
+            margin: 1px;
+            line-height: 28px;
+            border: 1px solid #5c5e5f;
+        }
+        span {
+            display: inline-block;
+            width: 150px;
+            text-align: right;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <span>省份：</span>
+        <select name="province" id="province" class="select">
+            <option><span>请选择您所在省份</span></option>
+        </select>
+        <br>
+        <span>城市：</span>
+        <select name="city" id="city" class="select">
+            <option><span>请选择您所在城市</span></option>
+        </select>
+        <br>
+        <span>区/县：</span>
+        <select name="country" id="country" class="select">
+            <option><span>请选择您所在区/县</span></option>
+        </select>
+    </div>
+
+    <script src="location.js"></script>
+    <script src="set.js"></script>
+</body>
+
+</html>
