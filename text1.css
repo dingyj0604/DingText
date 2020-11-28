@@ -1,0 +1,282 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+.container_back {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url("背景图_画板\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center,center;   
+}
+.container {
+    box-sizing: border-box;
+    height: 88%;
+    width: 94%;
+    position: absolute;
+    left: 3%;
+    top: 6%;
+    padding: 2%;
+    margin: 0;
+    border-radius: 30px;
+    background-color: white;
+}
+.container_nav {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    box-sizing: border-box;
+    height: 100%;
+    width: 15%;
+    margin: 0;
+    background-color: white;
+}
+.nav_pictrue{
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    padding: 10% 20% 10% 10%;
+
+}
+.nav_overview{
+    width: 80%;
+    height: 10%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color:rgb(89,202,232);
+    outline: none;
+}
+
+.container_content {
+    box-sizing: border-box;
+    height: 100%;
+    width: 60%;
+    margin: 0;
+    padding: 2% 2% 2% 2%;
+    float: left;
+    background-color: rgb(246, 247, 251);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content1-item1{
+    float: left;
+    width: 50%; 
+    height: 45%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: white;
+}
+.content1-item2{
+    font-size: 18px;
+    width: 80%;
+    height: 40px;
+    padding-left: 2%;
+    text-align: left;
+    border: 0;
+    outline-style: none;
+}
+.content1-item3{
+    width: 12%; 
+    height: 10%;
+    float: right; 
+    border: 0px;
+    margin-top: 1%;
+    background-color: white; 
+    outline-style: none;
+}
+.content1-item4{
+    float: right;
+    width: 25%;
+    height: 80%;
+    border-radius: 20px;
+    border-color: rgb(88,201,230);
+    margin-top: 1.4%;
+    border-width: 2px;
+    color: rgb(88,201,230);
+    background-color: transparent;
+    outline-style: none;
+}
+
+.content2-item1{
+    background-image: url(药.png);
+    background-size: 100% 100%;
+    float: left;
+    margin-top: 2%;
+    width: 50%;
+    height: 58%;
+    margin-right: 8%;
+    background-repeat: no-repeat;
+    padding: 3% 0 4% 5%;
+}
+.content2-item2{
+    float: left;
+    width: 15%;
+    box-sizing: border-box;
+    margin-top: 3%;
+    height: 93%;
+    background-color: white;
+    border-radius: 18px;
+}
+.content3-item1{
+    width: 30%; 
+    height: 99%;
+    border-radius: 20px; 
+    float: left; 
+    margin-right: 5%;
+}
+.container_content span{
+    display: inline-block; 
+}
+.content5-item1{
+    width: 48.6px;
+}
+.content5-item2{
+    width: 30%;
+    height: 100%;
+    float: right;
+    border-radius: 22px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 2% 3% 2% 3%;
+}
+.content5-item3{
+    width: 14px;    
+    height: 14px;
+    border-radius: 7px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+.container_person {
+    box-sizing: border-box;
+    float: right;
+    height: 100%;
+    width: 25%;
+    margin: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.person1-item1{
+    height: 10%;
+    width: 20%; 
+    background-color: rgba(184, 173, 173, 0.801);
+}
+.person1-item1::before{
+    float: left;
+    content: '\2715';
+    font-size: 25px;
+    color:rgb(88,201,230);
+}
+
+.person1-item2{
+    height:40px ;
+    width: 20px; 
+    background-color: rosybrown;
+}
+
+.person1-item2::before{
+    float: right;
+    content: '\2026';
+    font-size: 30px;
+    font-weight: 600;
+    transform: rotate(-90deg);
+    color:rgb(88,201,230);
+}
+
+.container_person button{
+    border: none; 
+    outline-style: none;
+    background-color: white;
+}
+
+.container_person button:hover{
+    background-color: rgb(214, 214, 214);
+}
+
+#add{
+    width: 30%;
+    height: 80%;
+    float: right;
+    font-size: 130%;
+    color: rgb(88,201,230);
+    margin-left: 5%;
+}
+
+.person2{
+    width: 80%;
+    height: 10%;
+    border-radius: 28px;
+    margin-top: 12%;
+    margin-left: 5%;
+    box-shadow: 0 0 10px 10px rgba(214, 208, 208, 0.4);
+    padding: 10px 20px 0px 20px;
+}
+
+.person3{
+    border-radius: 15px;
+    background-color: rgb(105,201,215);
+}
+
+.person3-item1{
+    float: right;
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding-top: 1px;
+    border-radius: 15px;
+}
+
+.person3-item1::before{
+    content: '\2716';
+    color: white;
+    font-size: 15px;
+}
+
+[class*="person"]{
+    text-align: center;
+}
+
+
+
+
+a{
+    text-decoration: none;
+}
+a:link {}    /* 未访问链接 */
+a:visited {} /* 已访问链接 */
+a:hover {
+    background-color:rgb(89,202,232);
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}   /* 鼠标移动到链接上 */
+a:active {background-color:rgb(89,202,232);}  /* 鼠标点击时 */
+        
+
+/* @media(max-width:768px) {
+    .container {
+        flex-direction: column;
+    }
+    .container_content,
+    .container_nav,
+    .container_person {
+        flex: auto;
+    }
+}*/
+
+    
