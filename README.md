@@ -6,3 +6,7 @@
 任务一.1
 ==
 [连接](https://dingyj0604.github.io/DingText/text1.1.html)
+
+js任务一
+==
+[连接](https://dingyj0604.github.io/DingText/text2.html)
